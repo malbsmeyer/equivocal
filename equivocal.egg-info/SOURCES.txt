@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+equivocal/__init__.py
+equivocal/engine.py
+equivocal/extractor.py
+equivocal.egg-info/PKG-INFO
+equivocal.egg-info/SOURCES.txt
+equivocal.egg-info/dependency_links.txt
+equivocal.egg-info/requires.txt
+equivocal.egg-info/top_level.txt
