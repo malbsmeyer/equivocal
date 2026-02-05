@@ -84,27 +84,6 @@ interpretation = engine.listen_internal(scene)
    Space       : medium
 ```
 
----
-
-## 🎓 Why This Matters
-
-### For AI Research
-- Reveals what models learn about audio semantics
-- Separates understanding from generation
-- Enables compositional reasoning about sound
-
-### For Artists & Producers
-- Semantic audio search: "find sounds that *feel* like this"
-- Compose with meanings, not just waveforms
-- Bridge modalities: what should this image sound like?
-
-### For Philosophy
-- What does it mean to "hear" without ears?
-- Can meaning exist independent of physical sensation?
-- How do we validate understanding without perception?
-
----
-
 \# The Philosophy of Equivocal
 
 "I have often thought how interesting a magazine paper might be written by any author who would—that is to say, who could—detail, step by step, the processes by which any one of his compositions attained its ultimate point of completion. Why such a paper has never been given to the world, I am much at a loss to say—but, perhaps, the autorial vanity has had more to do with the omission than any one other cause. Most writers—poets in especial—prefer having it understood that they compose by a species of fine frenzy—an ecstatic intuition—and would positively shudder at letting the public take a peep behind the scenes, at the elaborate and vacillating crudities of thought—at the true purposes seized only at the last moment—at the innumerable glimpses of idea that arrived not at the maturity of full view—at the fully-matured fancies discarded in despair as unmanageable—at the cautious selections and rejections—at the painful erasures and interpolations—in a word, at the wheels and pinions—the tackle for scene-shifting—the step-ladders, and demon-traps—the cock’s feathers, the red paint and the black patches, which, in ninety-nine cases out of a hundred, constitute the properties of the literary histrio."
@@ -160,14 +139,6 @@ AI audio models like Suno create incredible and original sounds from text prompt
 
 Somewhere in these models, before the final decoding step, exists a representation that captures the *meaning* of "sad piano" - not the sound itself, but the semantic concept.
 
-**Equivocal explores that space directly.**
-
-Most audio models work like this:
-```
-Text prompt → Latent representation → Audio rendering → Your ears
-                      ↑
-              [Hidden understanding]
-```
 
 Equivocal stops at the latent representation - letting you examine what the model "hears" conceptually, without ever rendering waveforms.
 
@@ -453,7 +424,7 @@ This project exists because others shared freely. Thank you to:
 - **[Librosa](https://librosa.org/)** - Audio analysis foundation
 - **Suno** - Conceptual inspiration for exploring latent audio representations
 - **The open source ML community** - For teaching by example
-- **Claude (Anthropic)** - For collaborative development and foundational teaching
+- **Claude (Anthropic)** - For collaborative development, foundational teaching, and tasteful emoji placement
 
 ---
 
@@ -487,7 +458,3 @@ If you use Equivocal in academic work, please cite:
 
 
 \*Pro cultura, pro communitate, pro curiosis. Nam qui audire volunt quid machina audit. \*```
-
----
-
-*"The song that plays in the mind of the machine, before it learns to sing."*
