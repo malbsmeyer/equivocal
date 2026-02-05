@@ -279,44 +279,6 @@ Or as Poe put it:
 but the true artist will always contrive, first, to tone them into proper subservience to the predominant aim, 
 and, secondly, to enveil them, as far as possible, in that Beauty which is the atmosphere and the essence of the poem."
 
-## Quick Start
-
-### Installation
-```bash
-git clone https://github.com/malbsmeyer/equivocal.git
-cd equivocal
-pip install -e .
-```
-
-### Basic Usage
-```python
-from equivocal import SceneAudioEngine
-
-# Initialize and train on provided samples
-engine = SceneAudioEngine()
-engine.train_atomic_sounds(
-    tier1_path="data/training_samples/Tier_1",
-    tier2_path="data/training_samples/Tier_2", 
-    tier3_path="data/training_samples/Tier_3"
-)
-
-# Generate scene from text
-scene = engine.generate_scene_from_text("peaceful underwater whale song")
-
-# See what the model 'hears' - no audio plays!
-interpretation = engine.listen_internal(scene)
-```
-
-**Output:**
-```
- What the model 'hears':
-   Mood        : neutral/ambient
-   Energy      : low (calm/quiet)
-   Pattern     : complex/unpredictable
-   Character   : mixed (tonal + noise)
-   Texture     : dense/rich (many layers)
-   Space       : medium
-```
 
 
 \## Looking Forward
@@ -350,7 +312,6 @@ This opens new questions:
 
 
 \*\*Equivocal doesn't answer these questions. It creates the space to ask them.\*\*
-
 
 
 ---
